@@ -28,7 +28,7 @@ After forking and setting up collaborators, follow these steps:
 #  Satellite Data Analysis using Linux
 
 ##  Project Overview
-The team Hackers404 partnered with an AI-based firm in Mauritius to analyze satellite data for predicting weather patterns across Africa. This project focuses on using Linux command-line tools to clean, organize, and extract meaningful insights from large datasets.
+The team **Hackers404** partnered with an AI-based firm in Mauritius to analyze satellite data for predicting weather patterns across Africa. This project focuses on using Linux command-line tools to clean, organize, and extract meaningful insights from large datasets.
 
 The goal is to apply practical Linux skills to manipulate real-world data and generate useful outputs for agricultural optimization.
 
