@@ -69,7 +69,7 @@ analyzed_data/highest_temp.csv
 #### Command used:
 ```bash
 sort -t',' -k3 -nr raw_data/satelite_temperature_data.csv | cut -d, -f3 | head -n 10 >> analyzed_data/highest_temp.csv
-
+```
 
 ### 2. Humidity Analysis by Country
 
@@ -95,9 +95,11 @@ sort -k3 -t',' -nr raw_data/satelite_temperature_data.csv | cut -d, -f3 | head >
 
 #extract humidity data for Chad
 grep 'Chad' raw_data/satelite_temperature_data.csv | sort -nr -t',' -k4  >> analyzed_data/humidity_data_Chad.csv  
+```
 
 How to run the script
 First, you make it executable,
+
 
 #### Command used:
 ```bash
