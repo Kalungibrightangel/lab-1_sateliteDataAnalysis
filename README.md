@@ -83,7 +83,6 @@ analyzed_data/humidity_data_Chad.csv
 ```bash
 grep "Chad" raw_data/satelite_temperature_data.csv | sort -t',' -k4 -nr >> analyzed_data/humidity_data_Chad.csv
 ```
-—
 
 ##  BONUS Task
 In this task we wrote a bash script **extracted_insight** found in the root directory, to automate both task 1 and task 2.
@@ -104,21 +103,21 @@ First, you make it executable,
 ```bash
 chmod +x extracted_insight.sh
 ```
-OR
-```bash
-bash extracted_insight.sh
-```
 
 Then you run the script.
 #### Command used:
 ```bash
 ./extracted_insight.sh
 ```
+OR
+```bash
+bash extracted_insight.sh
+```
 
 **Authors**
-Sampson Foli
-Kalungi Bright Angel
-Bibi Shania Tinkouree
-Mmadu Chioma
-Nelson Fodjo
+- Sampson Foli
+- Kalungi Bright Angel
+- Bibi Shania Tinkouree
+- Mmadu Chioma
+- Nelson Fodjo
 
